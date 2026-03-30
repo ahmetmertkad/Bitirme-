@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+bitirme projesi/.venv_py311/
+
+# Model / ağırlık dosyaları
+*.pth
+*.h5
+*.pt
+
+# Flutter / build çıktıları
+bitirme projesi/flutter_app/build/
+bitirme projesi/flutter_app/.dart_tool/
+bitirme projesi/flutter_app/.idea/
+bitirme projesi/flutter_app/.flutter-plugins*
+bitirme projesi/flutter_app/.packages

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "243711871542",
+    "project_id": "planttrack-f9cde",
+    "storage_bucket": "planttrack-f9cde.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243711871542:android:d22332964e986f8f69a697",
+        "android_client_info": {
+          "package_name": "com.example.plant_disease_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXGJAEIOtG2kDDeSpTJ22tzjcikhl1fX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

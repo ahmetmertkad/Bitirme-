@@ -1,0 +1,4 @@
+﻿Analyzing flutter_app...                                        
+
+   info - Parameter 'key' could be a super parameter - lib\ui\widgets\scanner_overlay.dart:8:9 - use_super_parameters
+

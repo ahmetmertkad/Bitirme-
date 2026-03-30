@@ -1,0 +1,77 @@
+Analyzing flutter_app...                                        
+
+   info - Don't invoke 'print' in production code - lib\services\auth_service.dart:20:7 - avoid_print
+  error - The method 'createUser' isn't defined for the type 'DatabaseService' - lib\services\auth_service.dart:38:19 - undefined_method
+   info - Don't invoke 'print' in production code - lib\services\auth_service.dart:42:7 - avoid_print
+   info - The imported package 'path' isn't a dependency of the importing package - lib\services\storage_service.dart:3:8 - depend_on_referenced_packages
+   info - Don't invoke 'print' in production code - lib\services\storage_service.dart:20:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\storage_service.dart:31:7 - avoid_print
+  error - Classes can only extend other classes - lib\ui\screens\community_feed_screen.dart:6:35 - extends_non_class
+  error - No associated named super constructor parameter - lib\ui\screens\community_feed_screen.dart:7:36 - super_formal_parameter_without_associated_named
+  error - Undefined class 'State' - lib\ui\screens\community_feed_screen.dart:10:3 - undefined_class
+warning - The method doesn't override an inherited method - lib\ui\screens\community_feed_screen.dart:10:30 - override_on_non_overriding_member
+  error - Classes can only extend other classes - lib\ui\screens\community_feed_screen.dart:13:41 - extends_non_class
+  error - Undefined class 'Widget' - lib\ui\screens\community_feed_screen.dart:18:3 - undefined_class
+warning - The method doesn't override an inherited method - lib\ui\screens\community_feed_screen.dart:18:10 - override_on_non_overriding_member
+  error - Undefined class 'BuildContext' - lib\ui\screens\community_feed_screen.dart:18:16 - undefined_class
+  error - The method 'Scaffold' isn't defined for the type '_CommunityFeedScreenState' - lib\ui\screens\community_feed_screen.dart:19:12 - undefined_method
+  error - The method 'AppBar' isn't defined for the type '_CommunityFeedScreenState' - lib\ui\screens\community_feed_screen.dart:20:15 - undefined_method
+  error - The name 'Text' isn't a class - lib\ui\screens\community_feed_screen.dart:21:22 - creation_with_non_type
+  error - The method 'IconButton' isn't defined for the type '_CommunityFeedScreenState' - lib\ui\screens\community_feed_screen.dart:23:11 - undefined_method
+  error - The name 'Icon' isn't a class - lib\ui\screens\community_feed_screen.dart:24:25 - creation_with_non_type
+  error - Undefined name 'Icons' - lib\ui\screens\community_feed_screen.dart:24:30 - undefined_identifier
+  error - The method 'StreamBuilder' isn't defined for the type '_CommunityFeedScreenState' - lib\ui\screens\community_feed_screen.dart:29:13 - undefined_method
+  error - Undefined name 'ConnectionState' - lib\ui\screens\community_feed_screen.dart:32:43 - undefined_identifier
+  error - The name 'Center' isn't a class - lib\ui\screens\community_feed_screen.dart:33:26 - creation_with_non_type
+  error - The method 'CircularProgressIndicator' isn't defined for the type '_CommunityFeedScreenState' - lib\ui\screens\community_feed_screen.dart:33:40 - undefined_method
+  error - The name 'Center' isn't a class - lib\ui\screens\community_feed_screen.dart:37:26 - creation_with_non_type
+  error - The method 'Text' isn't defined for the type '_CommunityFeedScreenState' - lib\ui\screens\community_feed_screen.dart:37:40 - undefined_method
+  error - Undefined name 'ListView' - lib\ui\screens\community_feed_screen.dart:42:18 - undefined_identifier
+  error - The method 'Card' isn't defined for the type '_CommunityFeedScreenState' - lib\ui\screens\community_feed_screen.dart:46:22 - undefined_method
+  error - The name 'symmetric' isn't a class - lib\ui\screens\community_feed_screen.dart:47:31 - creation_with_non_type
+  error - The method 'RoundedRectangleBorder' isn't defined for the type '_CommunityFeedScreenState' - lib\ui\screens\community_feed_screen.dart:48:24 - undefined_method
+  error - Undefined name 'BorderRadius' - lib\ui\screens\community_feed_screen.dart:48:61 - undefined_identifier
+  error - The method 'Column' isn't defined for the type '_CommunityFeedScreenState' - lib\ui\screens\community_feed_screen.dart:49:24 - undefined_method
+  error - Undefined name 'CrossAxisAlignment' - lib\ui\screens\community_feed_screen.dart:50:39 - undefined_identifier
+  error - The method 'ClipRRect' isn't defined for the type '_CommunityFeedScreenState' - lib\ui\screens\community_feed_screen.dart:53:23 - undefined_method
+  error - The name 'vertical' isn't a class - lib\ui\screens\community_feed_screen.dart:54:45 - creation_with_non_type
+  error - Undefined name 'Radius' - lib\ui\screens\community_feed_screen.dart:54:72 - undefined_identifier
+  error - Undefined name 'Image' - lib\ui\screens\community_feed_screen.dart:55:32 - undefined_identifier
+  error - Undefined name 'BoxFit' - lib\ui\screens\community_feed_screen.dart:58:32 - undefined_identifier
+  error - The name 'shrink' isn't a class - lib\ui\screens\community_feed_screen.dart:59:68 - creation_with_non_type
+  error - The method 'Padding' isn't defined for the type '_CommunityFeedScreenState' - lib\ui\screens\community_feed_screen.dart:62:21 - undefined_method
+  error - The name 'all' isn't a class - lib\ui\screens\community_feed_screen.dart:63:38 - creation_with_non_type
+  error - The method 'Column' isn't defined for the type '_CommunityFeedScreenState' - lib\ui\screens\community_feed_screen.dart:64:30 - undefined_method
+  error - Undefined name 'CrossAxisAlignment' - lib\ui\screens\community_feed_screen.dart:65:45 - undefined_identifier
+  error - The method 'Text' isn't defined for the type '_CommunityFeedScreenState' - lib\ui\screens\community_feed_screen.dart:67:27 - undefined_method
+  error - Undefined name 'Theme' - lib\ui\screens\community_feed_screen.dart:69:36 - undefined_identifier
+  error - The name 'SizedBox' isn't a class - lib\ui\screens\community_feed_screen.dart:71:33 - creation_with_non_type
+  error - The method 'Row' isn't defined for the type '_CommunityFeedScreenState' - lib\ui\screens\community_feed_screen.dart:72:27 - undefined_method
+  error - The name 'Icon' isn't a class - lib\ui\screens\community_feed_screen.dart:74:37 - creation_with_non_type
+  error - Undefined name 'Icons' - lib\ui\screens\community_feed_screen.dart:74:42 - undefined_identifier
+  error - Undefined name 'Colors' - lib\ui\screens\community_feed_screen.dart:74:88 - undefined_identifier
+  error - The name 'SizedBox' isn't a class - lib\ui\screens\community_feed_screen.dart:75:37 - creation_with_non_type
+  error - The method 'Text' isn't defined for the type '_CommunityFeedScreenState' - lib\ui\screens\community_feed_screen.dart:76:31 - undefined_method
+  error - The name 'TextStyle' isn't a class - lib\ui\screens\community_feed_screen.dart:76:71 - creation_with_non_type
+  error - Undefined name 'Colors' - lib\ui\screens\community_feed_screen.dart:76:88 - undefined_identifier
+  error - The name 'SizedBox' isn't a class - lib\ui\screens\community_feed_screen.dart:77:37 - creation_with_non_type
+  error - The name 'Icon' isn't a class - lib\ui\screens\community_feed_screen.dart:78:37 - creation_with_non_type
+  error - Undefined name 'Icons' - lib\ui\screens\community_feed_screen.dart:78:42 - undefined_identifier
+  error - Undefined name 'Colors' - lib\ui\screens\community_feed_screen.dart:78:90 - undefined_identifier
+  error - The name 'SizedBox' isn't a class - lib\ui\screens\community_feed_screen.dart:79:37 - creation_with_non_type
+  error - The method 'Text' isn't defined for the type '_CommunityFeedScreenState' - lib\ui\screens\community_feed_screen.dart:80:31 - undefined_method
+  error - The name 'TextStyle' isn't a class - lib\ui\screens\community_feed_screen.dart:80:74 - creation_with_non_type
+  error - Undefined name 'Colors' - lib\ui\screens\community_feed_screen.dart:80:91 - undefined_identifier
+  error - The name 'Spacer' isn't a class - lib\ui\screens\community_feed_screen.dart:81:37 - creation_with_non_type
+  error - The method 'Text' isn't defined for the type '_CommunityFeedScreenState' - lib\ui\screens\community_feed_screen.dart:82:31 - undefined_method
+  error - The name 'TextStyle' isn't a class - lib\ui\screens\community_feed_screen.dart:84:46 - creation_with_non_type
+  error - Undefined name 'Colors' - lib\ui\screens\community_feed_screen.dart:84:63 - undefined_identifier
+  error - The method 'FloatingActionButton' isn't defined for the type '_CommunityFeedScreenState' - lib\ui\screens\community_feed_screen.dart:98:29 - undefined_method
+  error - Undefined name 'Navigator' - lib\ui\screens\community_feed_screen.dart:100:11 - undefined_identifier
+  error - The method 'MaterialPageRoute' isn't defined for the type '_CommunityFeedScreenState' - lib\ui\screens\community_feed_screen.dart:102:13 - undefined_method
+  error - The name 'Icon' isn't a class - lib\ui\screens\community_feed_screen.dart:105:22 - creation_with_non_type
+  error - Undefined name 'Icons' - lib\ui\screens\community_feed_screen.dart:105:27 - undefined_identifier
+   info - Don't use 'BuildContext's across async gaps - lib\ui\screens\create_post_screen.dart:65:28 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\ui\screens\login_screen.dart:34:28 - use_build_context_synchronously
+  error - The element type 'CommunityFeedScreen' can't be assigned to the list type 'Widget' - lib\ui\screens\main_layout.dart:21:5 - list_element_type_not_assignable
+
